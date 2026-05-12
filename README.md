@@ -1,26 +1,26 @@
 # Clase-5--Cultura-Digital-
 Tercero A- Anahy Cóndor
 
-#include <iostream>
-#include <vector>
-#include <string>
-using namespace std;
+    #include <iostream>
+    #include <vector>
+    #include <string>
+    using namespace std;
 
-struct Tarea {
+    struct Tarea {
     string nombre;
     bool completada;
-};
+    };
 
-void mostrarMenu() {
+    void mostrarMenu() {
     cout << "\n===== MENU DE TAREAS =====\n";
     cout << "1. Agregar tarea\n";
     cout << "2. Ver tareas\n";
     cout << "3. Completar tarea\n";
     cout << "4. Salir\n";
     cout << "Elige una opción: ";
-}
+    }
 
-int main() {
+    int main() {
     vector<Tarea> tareas;
     int opcion;
 
